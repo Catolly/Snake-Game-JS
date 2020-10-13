@@ -1,0 +1,40 @@
+@btnHeight: 45px;
+
+#game-nav-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+
+	width: fit-content;
+	height: 100vh;
+}
+
+#game-nav {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#game-title {
+	margin: 0px;
+	margin-bottom: 10px;
+
+	user-select: none;
+}
+
+.btn {
+	line-height: @btnHeight;
+	height: @btnHeight;
+
+	border: 3px solid red;
+	background: none;
+
+	font-family: 'Shovel Knight (extended)';
+
+	user-select: none;
+}
+
+#game-nav .btn {
+	margin-top: 30px;
+}
